@@ -1,3 +1,5 @@
+![logo URV](docs/urv.jpg){width=400px}
+
 # Lab 4 – Cloud Architecture (Microserveis, SDK, Cues i Mails)
 
 Com a tal fer els exercicis no compta per a nota, però si els pengeu al Moodle podré tenir-ho en compte.
