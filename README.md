@@ -1,4 +1,4 @@
-![logo URV](docs/urv.jpg){width=400px}
+<img src="docs/urv.jpg" width="400">
 
 # Lab 4 – Cloud Architecture (Microserveis, SDK, Cues i Mails)
 
