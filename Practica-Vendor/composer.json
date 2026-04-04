@@ -1,0 +1,17 @@
+{
+    "name": "sce/practica-vendor-test",
+    "version": "1.0.0",
+    "description": "A test for students of SCE subject",
+    "autoload": {
+        "psr-4": {
+            "Sce\\PracticaVendorTest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "David Domenech",
+            "email": "david.domenech@urv.cat"
+        }
+    ],
+    "require": {}
+}
