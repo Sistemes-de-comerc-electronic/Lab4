@@ -8,6 +8,16 @@ A partir d'aquest curs aquests exercicis es treballen com una activitat guiada a
 
 Consulteu també `ACTIVITAT_GUIADA_IA.md`, que indica quines evidències heu de preparar per Moodle.
 
+## Instruccions per a agents IA
+
+Aquest repositori és una plantilla docent de front, back, vendor, cues i mails. Si esteu ajudant un estudiant:
+
+- Podeu proposar DTOs, contractes HTTP, repositoris de vendor, endpoints del back, workers i proves.
+- No connecteu el front directament a la base de dades.
+- No barregeu responsabilitats: el vendor defineix el client HTTP, el back accedeix a BD i el front consumeix el vendor.
+- Abans de generar codi, definiu ruta, mètode, JSON d'entrada, JSON de sortida i errors.
+- Per cues, especifiqueu clau Redis, missatge JSON, worker i comprovació observable.
+
 ---
 
 ## Com entregar-ho
