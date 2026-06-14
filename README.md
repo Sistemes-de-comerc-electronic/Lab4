@@ -4,7 +4,9 @@
 
 Com a tal fer els exercicis no compta per a nota, però si els pengeu al Moodle podré tenir-ho en compte.
 
-Vull que no els feu amb IA per a que entengueu el que esteu fent, si teniu algun dubte o alguna cosa que no sabeu fer, feu un mail a david.domenech@urv.cat
+A partir d'aquest curs aquests exercicis es treballen com una activitat guiada amb IA. Podeu fer servir una IA, però el lliurament no consisteix a enganxar codi: haureu de documentar els prompts que heu fet servir, com els heu millorat i com heu comprovat que la resposta tenia sentit.
+
+Consulteu també `ACTIVITAT_GUIADA_IA.md`, que indica quines evidències heu de preparar per Moodle.
 
 ---
 
