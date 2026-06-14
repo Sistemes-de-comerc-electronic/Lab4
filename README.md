@@ -8,6 +8,10 @@ A partir d'aquest curs aquests exercicis es treballen com una activitat guiada a
 
 Consulteu també `ACTIVITAT_GUIADA_IA.md`, que indica quines evidències heu de preparar per Moodle.
 
+## Progressió de l’ajuda IA
+
+**Nivell 4 - Contractes propis.** L’agent IA ha de demanar contracte HTTP i responsabilitats abans del codi. Menys recepta, més disseny justificat.
+
 ## Entrega per tasca
 
 Per cada targeta del Jira, Trello o GitHub Projects heu d'entregar:

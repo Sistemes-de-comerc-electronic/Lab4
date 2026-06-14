@@ -2,6 +2,10 @@
 
 Aquest laboratori treballa arquitectura: front, back, vendor, cues i mails. Cada tasca ha de tenir contracte clar, PR i proves.
 
+## Nivell de guia
+
+**Nivell 4 - Contractes propis.** Heu de definir contractes i responsabilitats. La IA pot revisar o proposar, però no substituir el disseny.
+
 ## Entrega per cada tasca
 
 - **Descripció funcional:** què s'ha de fer i per què aporta valor al projecte.
