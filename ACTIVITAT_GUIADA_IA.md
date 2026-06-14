@@ -1,25 +1,26 @@
 # Activitat guiada amb IA - Lab 4
 
-Aquest repositori és el punt de partida per separar front, back i vendor. El repte principal és conduir la IA perquè respecti les fronteres arquitectòniques.
+Aquest laboratori treballa arquitectura: front, back, vendor, cues i mails. Cada tasca ha de tenir contracte clar, PR i proves.
 
-## Què heu de fer
+## Entrega per cada tasca
 
-1. Feu un prompt per descriure l'arquitectura front-back-vendor.
-2. Feu un prompt per dissenyar DTOs i repositoris de la llibreria.
-3. Feu un prompt per definir el contracte HTTP del back.
-4. Feu un prompt perquè el front consumeixi el vendor sense accedir a BD.
-5. Feu un prompt per encuar un esdeveniment a Redis.
-6. Feu un prompt per processar la cua i enviar un mail des del worker.
+- **Descripció funcional:** què s'ha de fer i per què aporta valor al projecte.
+- **Prompt utilitzat:** prompt inicial i prompts de refinament, si n'hi ha.
+- **Pla generat per la IA:** pla complet o resum si l'eina no el guarda.
+- **Link al PR:** URL del PR amb els commits associats. Pot estar obert o merged.
+- **Joc de proves:** casos correctes, errors esperats, codis HTTP, JSON de prova, captures, curl/Postman, logs o comprovació de cua.
+- **Revisió crítica:** què ha fet bé la IA, què heu hagut de corregir i quines decisions són vostres.
 
-## INPUTS per Moodle
+## Tasques suggerides
 
-- Prompt d'arquitectura amb ports i responsabilitats.
-- Prompt de DTOs i repositori.
-- Contracte HTTP resumit: ruta, mètode, JSON i codis d'error.
-- Prompt de cua amb missatge JSON i clau Redis.
-- Prompt de worker/mail i comprovació.
-- Reflexió final sobre com heu evitat barrejar front, back i vendor.
+1. Definir un endpoint i els DTOs del vendor.
+2. Consumir el vendor des del front.
+3. Encular un esdeveniment a Redis i processar-lo amb un worker.
 
-## Recordatori
+## Exemple de joc de proves
 
-El front no s'ha de connectar a BD. Si la IA ho proposa, heu de corregir el prompt.
+- JSON correcte -> 200.
+- JSON invàlid -> 400.
+- Recurs inexistent -> 404.
+- Front no accedeix a BD.
+- Cua amb missatge -> worker el processa.

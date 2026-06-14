@@ -8,6 +8,17 @@ A partir d'aquest curs aquests exercicis es treballen com una activitat guiada a
 
 Consulteu també `ACTIVITAT_GUIADA_IA.md`, que indica quines evidències heu de preparar per Moodle.
 
+## Entrega per tasca
+
+Per cada targeta del Jira, Trello o GitHub Projects heu d'entregar:
+
+1. **Descripció funcional:** què s'ha de fer i per què aporta valor.
+2. **Prompt utilitzat:** prompt inicial i refinaments.
+3. **Pla generat per la IA:** pla complet o resum.
+4. **Link al PR:** amb els commits associats. Pot estar obert o merged.
+5. **Joc de proves:** casos correctes, errors, codis HTTP si n'hi ha, captures, curl/Postman o comprovació visual.
+6. **Revisió crítica:** què ha fet bé la IA, què heu corregit i quines decisions són vostres.
+
 ## Instruccions per a agents IA
 
 Aquest repositori és una plantilla docent de front, back, vendor, cues i mails. Si esteu ajudant un estudiant:
